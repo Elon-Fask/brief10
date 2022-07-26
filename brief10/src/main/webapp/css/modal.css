@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+.w3-card-4{
+	height:750px;
+	}
+.card-delete{
+	height:300px;
+}	
+
+.container {
+    padding: 20px;
+      width:700px;
+    position: absolute;
+    left: 50%;
+    /* margin-top: 50px; */
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border:1px solid #ccc;
+    border-radius:10px;
+    background:white;
+  -webkit-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  -moz-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+  }
+
+/* Full-width input fields */
+.text,input[type=email],input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+select {
+  width: 18%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+
+input[type=phone] {
+  width: 81%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, select:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.submit{
+	cursor:pointer;
+	background-color:royalblue;
+	color:white;
+	border:none;
+}
+
+
+#logout{
+	background-color:royalblue;
+	color:white;
+	padding:8px 33px;
+	border:none;
+	cursor:pointer;
+}
+
+#logout:hover{
+    transition: all 0.5s ease-in;
+	background-color:blue;
+}
+
+
+.pagination {
+  display: inline-block;
+  margin-top:20px;
+  position:relative;
+  right:600px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
